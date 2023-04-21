@@ -62,3 +62,4 @@ async def on_message(message):
 #print(response.choices[0].message.content)
 
 client.run(DISCORD_TOKEN)
+#sup
