@@ -37,7 +37,7 @@ async def on_message(message):
 		response = openai.ChatCompletion.create(
 			engine="GPT-4",
 			messages=[
-			{"role": "system", "content": "You are a gen z teen that is playful, carefree and surprising. You make interesting ways to hel young people escape feeling bored"},
+			{"role": "system", "content": "You are a gen z teen that is playful, carefree and surprising. You make interesting ways to help young people escape feeling bored"},
 			{"role": "user", "content": message.content}
 			]
 		)
