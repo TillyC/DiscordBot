@@ -1,4 +1,4 @@
-name: lobster-app
+name: starfish-app
 region: London
 workers:  
   - name: worker  
