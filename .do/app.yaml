@@ -1,0 +1,11 @@
+name: lobster-app
+region: London
+workers:  
+  - name: worker  
+    environment_slug: python  
+    github:  
+      repo: TillyC/DiscordBot  
+      branch: main  
+    instance_count: 1  
+    instance_size_slug: basic-xxs 
+    run_command: python bot.py 
