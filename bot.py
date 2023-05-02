@@ -10,9 +10,12 @@ GUILD = "{Tilly's-Server}"
 
 # create an object that will control our discord bot
 client = discord.Client(intents=discord.Intents.default())
-openai.api_key = os.environ.get["API_KEY"]
-DISCORD_TOKEN = os.environ.get["DISCORD_TOKEN"]
-openai.api_base = os.environ.get["API_BASE"]
+openai.api_key = os.environ["API_KEY"]
+DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
+openai.api_base = os.environ["API_BASE"]
+
+
+
 #get our bot online
 #guild is another term for server
 @client.event
